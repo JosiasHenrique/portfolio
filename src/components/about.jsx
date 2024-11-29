@@ -1,3 +1,4 @@
+import { Skills } from "./skills";
 
 export default function About() {
     return (
@@ -20,6 +21,10 @@ export default function About() {
                     <div className="flex justify-center items-center">
                         <img src="/img/arte.svg" alt="Foto de Onyedika" className="rounded-lg shadow-lg w-full max-w-md" />
                     </div>
+                </div>
+                <div>
+                    <h2 className="mb-5">Ferramentas e tecnologias que já utilizei:</h2>
+                    <Skills />
                 </div>
             </div>
         </section>

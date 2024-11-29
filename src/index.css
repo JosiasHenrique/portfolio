@@ -6,7 +6,7 @@
 
 :root {
   --background-color: #0b090a;
-  --secondary-background-color: #3A3A3A;
+  --secondary-background-color: #131515;
 
   --text-color: #E5E5E5;
   --heading-color: #FFFFFF;
@@ -41,8 +41,6 @@ body {
   background-color: var(--accent-hover-color); 
 }
 
-
-
 strong {
   color: var(--accent-color);
 }
@@ -61,6 +59,10 @@ section {
 
 .txt-color-2 {
   color: var(--accent-color);
+}
+
+.bg-portfolio-gray {
+  background-color: var(--secondary-background-color);
 }
 
 header {
@@ -120,4 +122,9 @@ header {
 }
 .divider::after {
   right: 0;
+}
+
+.section-projects {
+  background-image: url(../public//img/background-section-projects.svg);
+  background-size: cover;
 }
