@@ -15,31 +15,31 @@ export default function Header() {
             </nav>
 
             {menuOpen && (
-                <div className="menu p-4 absolute top-0 right-0 left-0 flex flex-col items-center justify-center h-screen">
+                <div id="menu" className="menu p-4 absolute top-0 right-0 left-0 flex flex-col items-center justify-center h-screen">
                     <button onClick={() => setMenuOpen(false)} className="absolute top-4 right-4 text-white">
                         <XMarkIcon className="h-6 w-6" />
                     </button>
                     <ul className="text-center">
                         <li className="my-2">
-                            <a href="http://">Home</a>
+                            <a href="#menu">Home</a>
                         </li>
                         <li className="my-2">
-                            <a href="http://">Sobre mim</a>
+                            <a href="#sobremim">Sobre mim</a>
                         </li>
                         <li className="my-2">
-                            <a href="http://">Projetos</a>
+                            <a href="#projetos">Projetos</a>
                         </li>
                         <li className="my-2">
-                            <a href="http://">Contato</a>
+                            <a href="#contato">Contato</a>
                         </li>
                     </ul>
                 </div>
             )}
             <div className="content-header text-center">
                 <h1 className="title-header txt-color-2">Josias Henrique</h1>
-                <h2 className="mb-8">Estudante de Engenharia de Software, Desenvolvedor Frontend, <br />
-                    desenvolvo experiências web simples e funcionais.</h2>
-                    <a className="btn-portfolio" href="#">Quem sou eu</a>
+                <h2 className="mb-8">Estudante de Engenharia de Software, Desenvolvedor de Sistemas, <br />
+                    desenvolvo experiências simples e funcionais.</h2>
+                    <a className="btn-portfolio" href="#sobremim">Quem sou eu</a>
             </div>
         </header>
     )

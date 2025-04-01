@@ -1,5 +1,5 @@
-import { ArrowDownCircleIcon, ArrowRightIcon } from "@heroicons/react/16/solid";
-import { ArrowRightCircleIcon } from "@heroicons/react/24/outline";
+import { ArrowRightIcon } from "@heroicons/react/16/solid";
+
 
 export default function ProjectCard({ image, title, description, link }) {
   return (
